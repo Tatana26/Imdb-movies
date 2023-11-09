@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "MyFont";
+  src: url(../Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  /* font-family: "Roboto", sans-serif !important; */
+  font-family: "MyFont" !important;
+}

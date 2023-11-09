@@ -1,0 +1,58 @@
+.moviePage {
+  background-color: #020713;
+  min-height: 100vh;
+  padding-bottom: 3rem;
+}
+
+.movieInfo {
+  color: #ffff;
+}
+
+.movieContent {
+  display: flex;
+  gap: 4rem;
+  margin: 3rem;
+}
+
+.movieTitle {
+  font-size: 30px;
+  color: #ceae0c;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.movieDirector,
+.movieGenre,
+.movieWriters,
+.movieYear {
+  margin: 0.5rem 0;
+  color: #9a9891;
+  font-size: 14px;
+}
+
+.movieDescription {
+  width: 500px;
+  margin: 3rem 0;
+  color: #9a9891;
+  line-height: 1.2em;
+}
+.title-ratingContainer {
+  display: flex;
+}
+
+.movieRating {
+  margin-top: 0.6rem;
+}
+
+.imdbIcon {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.video {
+  width: 900px;
+}
+
+.image {
+  max-height: 600px;
+}

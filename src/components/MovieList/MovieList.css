@@ -1,0 +1,22 @@
+.movie-section {
+  color: white;
+  margin-left: 3.8rem;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+
+.movie-section .list-title {
+  margin-bottom: 1.5rem;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  color: #ceae0c;
+  font-weight: bold;
+}
+
+.movie-list {
+  display: flex;
+  gap: 1rem;
+  overflow-x: scroll;
+  max-width: 100%;
+}

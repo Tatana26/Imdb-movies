@@ -1,0 +1,10 @@
+.profile-view {
+  background-color: #020713;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.movie-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

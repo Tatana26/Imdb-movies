@@ -1,0 +1,30 @@
+.home-page {
+  background-image: url(./images/Group\ 26.png);
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.home-page-heading {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+
+.home-page-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.btn-home {
+  padding: 15px 25px;
+  margin-top: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #100c35;
+  color: #fff;
+  margin-right: 1rem;
+}

@@ -1,0 +1,37 @@
+.moviecard-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-title {
+  font-size: 23px;
+  margin-top: 1rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.rating {
+  font-size: 14px;
+  color: #9a9891;
+  margin-top: 0.6rem;
+}
+
+.director {
+  margin: 0.5rem 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #9a9891;
+}
+
+.imdbIcon {
+  width: 40px;
+  height: 20px;
+}
+
+.rating-imdb {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+}

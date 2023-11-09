@@ -1,0 +1,62 @@
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 1rem 4rem;
+  background-color: #011640;
+  position: sticky;
+  top: 0;
+}
+
+.routes .link {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: white;
+  z-index: 99;
+}
+
+.navLeft,
+.navRight {
+  display: flex;
+  gap: 1rem;
+  /* margin-top: 1rem; */
+}
+
+.navLeft {
+  margin-top: 0.6rem;
+}
+
+.logo {
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+  width: 50px;
+  cursor: pointer;
+}
+
+.logOutBtn {
+  height: 10px;
+}
+
+.user {
+  border: 1px solid #838383;
+  border-radius: 8px;
+  /* position: absolute; */
+  right: 0;
+  margin-right: 2rem;
+  padding: 5px 20px;
+  /* margin-top: 0.5rem; */
+  display: flex;
+}
+
+.user p {
+  margin-top: 0.4rem;
+}
+
+.logOutIcon {
+  height: 40px;
+  cursor: pointer;
+}
+
+.activeUserLogo {
+  height: 30px;
+}

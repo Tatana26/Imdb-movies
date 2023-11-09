@@ -1,0 +1,12 @@
+.moviesPage {
+  background-color: #020713;
+  min-height: 100vh;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+  gap: 1rem;
+  margin-top: 2rem;
+}

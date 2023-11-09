@@ -1,0 +1,76 @@
+.SignUp {
+  width: 400px;
+  height: fit-content;
+  padding: 4rem 1rem;
+  background: url(./images/Rectangle\ 25.png);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 7px;
+}
+
+.SignUp .heading {
+  color: #fff;
+  font-size: 20px;
+}
+
+.SignUpContent {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  gap: 1rem;
+}
+
+.SignUp .form {
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+}
+
+.SignUp .form input {
+  width: 300px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  height: 30px;
+  background-color: #7c7a79;
+  margin-top: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+.SignUp .form input:focus {
+  outline: none;
+}
+
+.SignUp .form input::placeholder {
+  color: #dfdfdf;
+}
+
+.signBtn {
+  width: 320px;
+  padding: 15px 25px;
+  margin-top: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #100c35;
+  color: #fff;
+}
+
+.form-text {
+  color: #7c7a79;
+  margin-top: 4rem;
+}
+
+.loader {
+  color: #fff;
+}
+
+.inputError {
+  border: 1px solid #ceae0c !important;
+}
+
+.error {
+  color: #ceae0c;
+}

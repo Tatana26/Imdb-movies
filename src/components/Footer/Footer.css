@@ -1,0 +1,34 @@
+.footer {
+  color: #fff;
+  max-width: 92%;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer .footerLists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footerLists .footerList li {
+  margin-bottom: 1rem;
+  color: #9a9891;
+}
+
+.footer .footerText {
+  text-align: center;
+  margin-top: 3rem;
+  color: #9a9891;
+}
+
+.footerIcon {
+  height: 60px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
